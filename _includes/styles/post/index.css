@@ -1,0 +1,17 @@
+.content {
+  margin: 2em auto;
+  max-width: 36em;
+  padding: 0 1em;
+}
+
+@media (min-width: 48em) {
+  .content {
+      max-width: 44em;
+  }
+}
+
+@media (min-width: 62em) {
+  .content {
+      max-width: 58em;
+  }
+}

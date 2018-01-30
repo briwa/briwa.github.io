@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "partials/meta.njk" %}{% include "styles/post/index.njk" %}
+    <title>Posts</title>
+<body>
+    <main class="content">
+        <nav>
+            <ul>
+            {%- for post in collections.post | reverse | slice(3) -%}
+                <li><a href="{{ post[0].url }}" rel="noreferrer" target="_self">{{ post[0].data.title }}</a></li>
+            {%- endfor -%}
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>

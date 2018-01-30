@@ -1,0 +1,5 @@
+{% set css %}
+{% include "styles/shared/pure.css" %}
+{% include "styles/shared/base.css" %}
+{% include "./index.css" %}
+{% endset %}<style>{{ css | cssmin | safe }}</style>
