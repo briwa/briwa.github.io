@@ -1,25 +1,22 @@
 {
-  "name": "briwa.dev",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/briwa/briwa.dev.git"
-  },
-  "author": "briwa <ssbriwa@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/briwa/briwa.dev/issues"
-  },
-  "homepage": "https://github.com/briwa/briwa.dev#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "2.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
-    "clean-css": "^4.2.3"
-  }
+	"name": "briwa.github.io",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"start": "npx @11ty/eleventy --serve --quiet"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=14"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^2.0.1",
+		"@11ty/eleventy-img": "^3.1.1",
+		"@11ty/eleventy-navigation": "^0.3.5",
+		"@11ty/eleventy-plugin-bundle": "^1.0.4",
+		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+		"luxon": "^3.3.0",
+		"markdown-it-anchor": "^8.6.7"
+	}
 }
