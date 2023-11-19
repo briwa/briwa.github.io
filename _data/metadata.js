@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Briwa",
+	title: "Home",
 	url: "https://briwa.dev/",
 	language: "en",
 	description: "briwa.dev",
