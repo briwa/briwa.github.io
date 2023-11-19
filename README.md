@@ -1,0 +1,1 @@
+A personal blog based on https://github.com/11ty/eleventy-base-blog.
