@@ -92,6 +92,11 @@ a[href]:active {
 main {
 	padding: 1rem;
 }
+
+main.full-page {
+	padding: 0;
+}
+
 main :first-child {
 	margin-top: 0;
 }
@@ -267,4 +272,22 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+
+.home {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home h1 {
+	font-size: 6em;
+	margin: 0;
+}
+
+.home h2 {
+	font-size: 1.8em;
 }
