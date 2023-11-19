@@ -53,7 +53,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 80vw;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -126,7 +126,7 @@ table th {
 
 pre,
 code {
-	font-family: var(--font-family-monospace);
+	font-family: var(--font-family-monospace);;
 }
 pre:not([class*="language-"]) {
 	margin: .5em 0;
@@ -143,6 +143,11 @@ pre:not([class*="language-"]) {
 	word-spacing: normal;
 	word-break: normal;
 }
+
+pre[class*="language-"] {
+	font-size: 0.75rem;
+}
+
 code {
 	word-break: break-all;
 }
