@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	title: "Home",
 	url: "https://briwa.dev/",
 	language: "en",

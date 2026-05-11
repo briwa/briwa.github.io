@@ -1,22 +1,22 @@
 {
 	"name": "briwa.github.io",
 	"version": "1.0.0",
+	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"start": "npx @11ty/eleventy --serve --quiet"
 	},
 	"license": "MIT",
 	"engines": {
-		"node": ">=14"
+		"node": ">=20"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.1",
-		"@11ty/eleventy-img": "^3.1.1",
-		"@11ty/eleventy-navigation": "^0.3.5",
-		"@11ty/eleventy-plugin-bundle": "^1.0.4",
-		"@11ty/eleventy-plugin-rss": "^1.2.0",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"luxon": "^3.3.0",
-		"markdown-it-anchor": "^8.6.7"
+		"@11ty/eleventy": "^3.1.5",
+		"@11ty/eleventy-img": "^6.0.4",
+		"@11ty/eleventy-navigation": "^1.0.5",
+		"@11ty/eleventy-plugin-rss": "^3.0.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+		"luxon": "^3.7.2",
+		"markdown-it-anchor": "^9.2.0"
 	}
 }
